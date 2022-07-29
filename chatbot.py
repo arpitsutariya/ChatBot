@@ -21,7 +21,9 @@ from chatterbot import ChatBot
      'Ok Thanks', 
      'No Problem! Have a Good Day!' 
  ]) 
-  
+ 
+ name = input("Enter your name: ")
+ print("Hi, I'm Bot created by Arpit Sutariya.")
  while True: 
      request = input('You:') 
      if request == 'Bye' or request == 'quit': 
